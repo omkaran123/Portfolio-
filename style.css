@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f5f7;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #556270, #4ecdc4);
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.social-links a {
+  color: white;
+  margin: 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffe66d;
+}
+
+.resume-btn {
+  display: inline-block;
+  background-color: #ffe66d;
+  color: #222;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: background 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #f7d046;
+}
+
+section {
+  background: white;
+  margin: 25px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #4ecdc4;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: square inside;
+  margin-top: 10px;
+}
+
+.project h3 a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.project h3 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
